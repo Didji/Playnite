@@ -221,6 +221,7 @@ Prefer data from official Store and where not available use IGBD.com database.</
     <sys:String x:Key="LOCSettingsImportLabel">Import changes in library automatically</sys:String>
     <sys:String x:Key="LOCSettingsImportInstalledLabel">Import installed games</sys:String>
     <sys:String x:Key="LOCSettingsImportUninstalledLabel">Import uninstalled games</sys:String>
+    <sys:String x:Key="LOCSettingsConfigureAccountAuthentication">Configure account information</sys:String>
     <sys:String x:Key="LOCSettingsImportLibraryLabel">Import all games</sys:String>
     <sys:String x:Key="LOCSettingsImportSteamLibraryLabel">Import all games (Public account or API key must be provided)</sys:String>
     <sys:String x:Key="LOCSettingsInvalidDBLocation">Invalid database file location, proper file path must be set.</sys:String>
@@ -600,8 +601,8 @@ You can try these to fix the issue:
     <!--GOG-->
     <sys:String x:Key="LOCGOGUseLogin">Account Login</sys:String>
     <sys:String x:Key="LOCGOGUseAccountName">Account Name</sys:String>
-    <sys:String x:Key="LOCGOGAccountSyncDescription" xml:space="preserve">Login to your account or user public account name to sync your full library.
-Note that Account Name option only works accounts that have public visibility.</sys:String>
+    <sys:String x:Key="LOCGOGAccountSyncDescription" xml:space="preserve">Login to your account or user public account name to sync your full library. This option allows you to import account data, such as playtime.
+Note that Account Name option only works for accounts that have public visibility.</sys:String>
 
     <!--Steam-->
     <sys:String x:Key="LOCSettingsSteamLibrarySource" xml:space="preserve">Select authenticated user or specify vanity URL name of your account to sync your full library. Accounts with private library visibility have to specify API key linked to that Steam account.
